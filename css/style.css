@@ -22,29 +22,31 @@ header .navbar {
 }
 
 header .navbar-default {
-  background-color: transparent;
+  background-color: rgb(0,142,173); /* TraverseTek blue */
+  /*background-color: transparent;*/
   border: none;
 }
 
 header .navbar-default .navbar-nav a {
   color: white;
   padding: 5px 8px;
+  font-weight: 700;
 }
 
 header .navbar-default .navbar-nav a:hover {
-  color: #EEC856;
+  color: #EEC856; /* yellow */
 }
 
 header .navbar-default .navbar-nav .active a {
-  font-weight: 700;
-  color: #EEC856;
+  /*font-weight: 700;*/
+  color: #EEC856; /* yellow */
   background: transparent;
-  border-bottom: 4px solid #EEC856;
+  border-bottom: 4px solid #EEC856; /* yellow */
   text-shadow: none;
 }
 
 header .navbar-default .navbar-nav .active a:hover {
-  color: #E15D5F;
+  color: #E15D5F; /* red */
   background: transparent;
   text-shadow: none;
 }
@@ -75,7 +77,7 @@ header .navbar-brand span.subhead {
 
 /**  Navbar Toggle **/
 header .navbar-toggle {
-  background-color: #279182;
+  background-color: rgb(75, 75, 75); /* teal */
 }
 
 header .navbar-default .navbar-toggle .icon-bar {
@@ -85,14 +87,14 @@ header .navbar-default .navbar-toggle .icon-bar {
 @media only screen
 and (max-width: 768px) {
   header .navbar-collapse.in {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0,0,0, .5); /*black, i don't know what this line does */
   }
 }
 
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(104,73,49,.9);
+  background: rgba(0,142,173,.7); /* TraverseTek blue */
 }
 
 header .navbar.inbody {
@@ -115,6 +117,7 @@ header .inbody .navbar-brand {
 header .inbody .navbar-brand h1 {
   font-size: 1.1em;
   padding-left: 38px;
+  /*margin-top: -1px;*/
 }
 
 header .inbody .navbar-brand span.subhead {
@@ -222,7 +225,7 @@ and (max-width: 768px) {
 .doctor h3 {
   font-weight: 600;
   font-size: 1.2em;
-  color: #6F4E36;
+  color: #6F4E36; /* nasty brown */
   padding-bottom: 5px;
 }
 
@@ -364,4 +367,3 @@ footer .navbar-nav>li a {
   text-decoration: underline;
   color: #EEC856 !important;
 }
-
